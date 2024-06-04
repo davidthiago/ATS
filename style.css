@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-blue-50: #00d9ff;
+    --color-blue-100: #35556e;
+    --color-blue-200: #0011ff;
+    --color-yellow-50: #eeff00;
+    
+
+    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200) )
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, ul, li, p {
+    margin: opx;
+    padding: opx;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background: var(--color-gradient);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: rgb(53, 52, 52);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 90px;
+    background-color: #f8fafc;
+    color: #3b4550;
+    width: 400px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+}
+
+.card>h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 10px 15px;
+    border: none;
+    background: var(--color-gradient);
+    color: #f8f8f8;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: 0.5 background;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.5 background;
+    background-color: #000;
+}
+
+.card>img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
